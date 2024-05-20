@@ -1,0 +1,30 @@
+.button{
+    background-color: aqua;
+    border: 1px solid black;
+    color: crimson;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    transition-duration: 0.4s
+}
+button:hover{
+    color: darkgoldenrod;
+    background-color: chocolate;
+}
+a:hover{
+    color: darkturquoise;
+    background-color: chocolate;
+}
+.today .but{
+    background-color: dodgerblue;
+    color: white;
+    border: 1px solid black;
+    padding: 10px 15px;
+    font-size: 20px;
+    width: 150px;
+    display: block;
+}
+.today .but:hover{
+    background-color: blue;
+}

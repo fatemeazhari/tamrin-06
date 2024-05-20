@@ -4,16 +4,112 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="/asset/css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="/img/volunteer_activism_24dp_FILL0_wght400_GRAD0_opsz24.png"
+      type="image/x-png"
+    />
     <style>
-        .love p{
-            border-style: solid dashed dotted double;
-        }
+      .love p {
+        border-style: solid dashed dotted double;
+      }
+      .bt p {
+        border-style: solid dashed double;
+      }
+      .no p.one {
+        border-style: double;
+        border-width: 5px 10px;
+        padding: 10px;
+      }
+      .no p.two {
+        border-style: solid;
+        border-width: 2px;
+        border-color: blue;
+      }
+      .no p.three {
+        border-left-style: solid;
+        border-color: red;
+      }
+      .no p.four {
+        border: 2px solid green;
+        border-radius: 50px;
+        padding: 10px;
+      }
+      p.five {
+        border: 5px solid pink;
+        padding: 10px 15px;
+        text-align: center;
+        border-radius: 50px;
+        background-color: aqua;
+      }
+      p.five:hover {
+        color: blue;
+      }
+      .box {
+        border: 4px solid red;
+      }
+      .box .item p {
+        border: 3px solid yellow;
+        padding-left: 20px;
+        width: 200px;
+      }
+      .avatar {
+        width: 100px;
+        height: 100px;
+        border: 1px solid black;
+        overflow: hidden;
+        border-radius: 50%;
+      }
+      .avatar img {
+        width: 100%;
+      }
     </style>
   </head>
   <body>
     <div class="love">
       <p>Lorem ipsum dolor sit amet.</p>
       <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="bt">
+      <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="no">
+      <p class="one">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+      <p class="two">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto,
+        accusantium.
+      </p>
+      <p class="three">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, minima
+        porro.
+      </p>
+      <p class="four">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+    </div>
+    <div>
+      <p class="five">Lorem ipsum dolor sit amet consectetur.</p>
+    </div>
+    <div class="box">
+      <div class="item"><p>Lorem ipsum dolor sit amet.</p></div>
+      <div class="item"><p>Lorem ipsum dolor sit amet.</p></div>
+      <div class="item"><p>Lorem ipsum dolor sit amet.</p></div>
+      <div class="item"><p>Lorem ipsum dolor sit amet.</p></div>
+    </div>
+    <div class="avatar">
+      <img src="/img/flower.jpg" alt="flower" />
+    </div>
+    <br />
+    <div>
+      <button>defult button</button>
+      <a href="#" class="button">link button</a>
+      <button class="button">button</button>
+    </div>
+    <br><br>
+    <div class="today">
+      <button class="but">click here</button>
+      <button class="but">click here</button>
+      <button class="but">click here</button>
+      <button class="but">click here</button>
     </div>
   </body>
 </html>
